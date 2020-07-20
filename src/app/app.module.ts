@@ -14,6 +14,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { DetalleHeroeComponent } from './components/detalle-heroe/detalle-heroe.component';
+import { BuscadorComponent } from './components/buscador/buscador.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DetalleHeroeComponent } from './components/detalle-heroe/detalle-heroe.
     HomeComponent,
     AboutComponent,
     HeroesComponent,
-    DetalleHeroeComponent
+    DetalleHeroeComponent,
+    BuscadorComponent
   ],
   imports: [
     BrowserModule,
